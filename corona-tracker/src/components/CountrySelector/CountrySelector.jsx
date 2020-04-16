@@ -2,7 +2,7 @@ import React from 'react'
 
 const Country = () => {
   return (
-    <h1>Cards</h1>
+    <h1>Country</h1>
   )
 }
 
