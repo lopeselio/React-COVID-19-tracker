@@ -3,14 +3,15 @@ import React from 'react'
 // import Chart from './components/Chart'
 // import Country from './components/CountrySelector'
 
-import { Cards, Country, Chart} from './components'
+import { Cards, Country, Charts } from './components'
+import styles from './App.module.css'
 
 class App extends React.Component {
   render () {
     return (
-      <div>
+      <div className={styles.container}>
         <Cards />
-        <Chart />
+        <Charts />
         <Country />
       </div>
     )
