@@ -20,10 +20,10 @@ state = {
 
   render () {
     const { data } = this.state
-    
+
     return (
       <div className={styles.container}>
-        <Cards />
+        <Cards data={data} />
         <Charts />
         <Country />
       </div>
