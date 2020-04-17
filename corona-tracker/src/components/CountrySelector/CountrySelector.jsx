@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { NativeSelect, FormControl, StylesProvider } from '@material-ui/core'
-import styles form './CountrySelector.module.css'
-
+import styles from './CountrySelector.module.css'
+import { countries } from '../../api/index'
 const Country = () => {
+  
   return (
     <FormControl className={Styles.FormControl}>
       <NativeSelect>
