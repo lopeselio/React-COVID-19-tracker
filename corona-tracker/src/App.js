@@ -10,6 +10,7 @@ import { fetchData } from './api/index'
 class App extends React.Component {
 state = {
   data: {},
+  country: ''
 }
 
   async componentDidMount () {
@@ -18,14 +19,21 @@ state = {
     // console.log(data)
   }
 
+  handleCountryOnChange = async (country) => {
+    console.log(country)
+    // fetch data
+
+    //set the state
+  }
+
   render () {
     const { data } = this.state
 
     return (
       <div className={styles.container}>
         <Cards data={data} />
+        <Country / handleCountryOnChange={this.componentWillUnmount.handleCountryOnChange}>
         <Charts />
-        <Country />
       </div>
     )
   }
