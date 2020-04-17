@@ -17,18 +17,18 @@ const Cards = (props) => {
         </Grid>
         <Grid item component={Card}>
           <CardContent>
-            <Typography color='textSecondary' gutterBottom>Infected</Typography>
+            <Typography color='textSecondary' gutterBottom>Recovered</Typography>
             <Typography variant='h5'>REAL DATA</Typography>
             <Typography color='textSecondary'>REAL DATE</Typography>
-            <Typography variant='body2'>Number of active cases of COVID-19</Typography>
+            <Typography variant='body2'>Number of people recovered from COVID-19</Typography>
           </CardContent>
         </Grid>
         <Grid item component={Card}>
           <CardContent>
-            <Typography color='textSecondary' gutterBottom>Infected</Typography>
+            <Typography color='textSecondary' gutterBottom>Deaths</Typography>
             <Typography variant='h5'>REAL DATA</Typography>
             <Typography color='textSecondary'>REAL DATE</Typography>
-            <Typography variant='body2'>Number of active cases of COVID-19</Typography>
+            <Typography variant='body2'>Number of Deaths caused due to COVID-19</Typography>
           </CardContent>
         </Grid>
       </Grid>
