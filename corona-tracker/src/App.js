@@ -20,6 +20,7 @@ state = {
   }
 
   handleCountryOnChange = async (country) => {
+    const fetchedData = await fetchData(country)
     console.log(country)
     // fetch data
 
