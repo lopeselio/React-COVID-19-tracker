@@ -35,7 +35,9 @@ const Charts = () => {
         />) : null
   )
   return (
-    <h1>Charts</h1>
+    <div className={styles.container}>
+      {lineChart}
+    </div>
   )
 }
 
