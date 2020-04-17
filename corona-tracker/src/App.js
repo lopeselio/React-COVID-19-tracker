@@ -22,9 +22,8 @@ state = {
   handleCountryOnChange = async (country) => {
     // fetch data
     const fetchedData = await fetchData(country)
-    console.log(fetchedData)
-
     //set the state
+    this.setState({ data: fetchedData, country: country })
   }
 
   render () {
