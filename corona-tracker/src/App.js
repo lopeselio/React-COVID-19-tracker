@@ -27,13 +27,13 @@ state = {
   }
 
   render () {
-    const { data } = this.state
+    const { data, country } = this.state
 
     return (
       <div className={styles.container}>
         <Cards data={data} />
         <Country handleCountryOnChange={this.handleCountryOnChange} />
-        <Charts />
+        <Charts data={data} country={country} />
       </div>
     )
   }
