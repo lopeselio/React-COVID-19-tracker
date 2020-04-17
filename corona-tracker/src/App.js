@@ -32,7 +32,7 @@ state = {
     return (
       <div className={styles.container}>
         <Cards data={data} />
-        <Country / handleCountryOnChange={this.componentWillUnmount.handleCountryOnChange}>
+        <Country handleCountryOnChange={this.handleCountryOnChange} />
         <Charts />
       </div>
     )
